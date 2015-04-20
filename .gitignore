@@ -27,7 +27,7 @@ src/components
 lib
 
 ## Images
-app/assets/img/**
+#app/assets/img/**
 
 ## Sass
 .sass-cache
