@@ -61,3 +61,463 @@ $user-card-width: 70px;
 [data-href]{
 	cursor: pointer;
 }
+
+html, body, .site-wrapper {
+	height: 100%;
+}
+
+p, body, .container{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	min-height: 100%;
+}
+
+.btn-cta{
+	background-color:#F2385A;
+	border-color: #F2385A;
+	font-size: 20px;
+	color: white;
+}
+
+.btn:hover{
+		background-color: #C12A46;
+		border-color: #C12A46;
+		color: white;
+	}
+
+img{
+	width: 100%;
+}
+
+.logo{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 20%;
+}
+
+.gracias .logo{
+	margin-top: 10%;
+}
+
+
+.landing{
+	height:100%;
+}
+
+nav{
+	font-family: "raleway";
+	font-size:20px;
+	float: right;
+	padding: 1% 2%;
+	position: relative;
+	z-index: 1;
+
+	a{
+		color: white;
+		margin: 0 10px;
+	}
+
+}
+
+.container{
+	position: relative;
+	font-family: "raleway";
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+
+	.bajada{
+		padding:0 5%;
+			h1{
+				font-size: 50px;
+				@media #{$xs-only}{
+					font-size: 32px;
+				}		
+			}
+
+	}
+
+
+	.texto{
+		font-size: 20px;
+	}
+
+	.ver-mas{
+		width: 10%;
+		font-size: 20px;
+		position: absolute;
+		bottom: 5%;
+		left: 45%;
+
+	}
+}
+
+.subtitulo, .container-contacto{
+	padding: 2%;
+		h2{
+			font-size: 30px;
+			font-family: "raleway";
+			@media #{$xs-only}{
+					font-size: 18px;
+				}	
+		}
+}
+
+.container-contacto h2 {
+	color:#979797;
+}
+
+.flecha {
+	width: 2%;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 2%;
+	left: 49%;
+}
+
+.flecha-atras {
+	width: 0.5%;
+	position: absolute;
+	left: 20%;
+}
+
+
+.video{
+	padding: 5% 0;
+}
+
+.marco-video{
+	// width: 50%;
+	margin: 0 auto;
+	padding-top: 49px;
+}
+
+.frase-video{
+	width: 80%;
+	margin: 0 auto 5% auto;
+	text-align: center;
+	h3{
+		font-size: 22px;
+		color: #4A4A4A;
+		font-weight: 300;
+	}
+
+	h2{
+		font-family: "raleway";
+	}
+
+	
+}
+
+.beneficios, .testimonios, .contacto{
+	padding: 3% 0 5% 0;
+
+	.container h1{
+		font-size: 44px;
+		color: #4A4A4A;
+		@media #{$xs-only}{
+					font-size: 28px;
+				}	
+	}
+
+	h3{
+		font-size: 26px;
+		color:#4A4A4A;
+		padding: 0 5%;
+		font-weight: 300;
+	}
+
+	h2{
+		margin:0;
+	}
+
+	p{
+		font-family: "raleway";
+		font-size: 20px;
+		color:#979797;
+		padding: 0 5%;
+		@media #{$xs-only}{
+					font-size: 16px;
+				}	
+
+	}
+
+	.ficha{
+		padding: 5%;
+		background-color: white;
+		border: 1px solid #DDD;
+	}
+
+	.subtitulo{
+		color: #979797;
+		padding: 0;
+		margin-bottom: 5%;
+	}
+
+}
+
+.testimonios .container h1{
+	color: white;
+	font-family: "raleway";
+}
+
+.icon{
+	width: 40%;
+	margin: 0 auto;
+	min-height: 170px;
+	@include flex-middle-center;	
+}
+
+.testimonios .icon{
+	@media #{$xs-only}{
+					display: none;
+				}
+}
+
+.col-sm-2 .icon{
+	min-height: 0px !important;
+}
+
+.titulo-seccion{
+	padding-bottom: 2%;
+}
+
+.beneficios, .gracias {
+	background-color: #FAFAFA;
+}
+
+.testimonios{
+	background-color: #4AD9D9;
+}
+
+// .contacto{
+// 	background-color: white;
+// }
+
+.foto-perfil{
+	width: 15%;
+	margin: 5% auto 1% auto;
+}
+
+.gallery-cell {
+	width: 100%;
+	min-height: 350px;
+}
+
+.nombre-testimonio{
+	h3{
+		color: white;
+	}
+}
+
+.testimonio{
+	p{
+		padding: 0 18%;
+		color: white;
+	}
+}
+
+input[type=text], input[type=email] {
+	width: 60%;
+	color: #D8D8D8;
+	margin: 0 auto 2% auto;
+	font-size: 22px;
+	padding: 2%;
+	border-radius: 5px;
+	@media #{$xs-only}{
+					font-size: 18px;
+				}	
+}
+
+
+.footer{
+	background-color: #D8D8D8;
+	@media #{$xs-only}{
+					display: none;
+				}
+}
+
+.iconos-footer{
+	width: 15%;
+	margin: 0 auto;
+	padding: 2.5% 0;
+}
+
+.icono{
+	width: 100%;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+.col-sm-6{
+	padding: 1%;
+}
+
+.container-contacto{
+	background-color: white;
+	width: 60%;
+	margin: 0 auto;
+	border: 1px solid #DDD;
+	text-align: center;
+
+	.titulo-seccion{
+		padding: 0 15% 5% 15%;
+	}
+}
+
+.form-control{
+	height: 45px !important;
+}
+
+.back{
+	margin-left: 21%;
+	font-size: 16px;
+	font-family: "raleway";
+}
+
+.contacto{
+	padding-top: 1%;
+}
+
+.color-rojo{
+	color: #F2385A !important;
+}
+
+.subtitulo-gracias{
+	color: #979797;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #4AD9D9;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+.gracias, .cuenta{
+	a:link {
+    color: #979797;
+	}
+
+	/* visited link */
+	a:visited {
+	    color: #979797;
+	}
+
+	/* mouse over link */
+	a:hover {
+	    color: #4AD9D9;
+	}
+
+	/* selected link */
+	a:active {
+	    color: #979797;
+	}
+
+}
+
+.menu-oculto{
+	a:link {
+    color: white;
+	}
+
+	/* visited link */
+	a:visited {
+	    color: white;
+	}
+
+	/* mouse over link */
+	a:hover {
+	    color: #4A4A4A;
+	}
+
+	/* selected link */
+	a:active {
+	    color: white;
+	}
+
+}
+
+
+.menu-oculto{
+	background-color: #4AD9D9;
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	opacity: 0;
+	z-index:1;
+	transition: 0.3s all ease-in-out;
+	border-bottom: 1px solid #DDD;
+	&.active {
+		opacity: 1;
+	}
+	@media #{$xs-only}{
+					height: 52px;
+				}	
+
+}
+
+.logo-menu{
+	width: 15%;
+	position: absolute;
+	padding: 15px;
+	@media #{$xs-only}{
+					width: 35%;
+				}	
+}
+
+.gracias h3{
+	color:#979797;
+	font-family: "raleway";
+	font-size: 22px;
+	margin: 0px;
+	padding: 0px;
+	@media #{$xs-only}{
+					font-size: 16px;
+				}	
+
+}
+
+.color-blanco{
+	color: white !important;
+}
+
+.color-gris{
+	color: #979797;
+}
+
+.frase-cierre{
+	width: 40% !important;
+	margin: 0 auto !important;
+	padding-bottom: 5% !important;
+	text-align: center !important;
+	color: #4A4A4A !important;
+	font-size: 30px !important;
+}
+
+.ficha h3{
+		font-size: 26px;
+		color:#4A4A4A;
+		padding: 0 5%;
+		font-weight: 300;
+	}

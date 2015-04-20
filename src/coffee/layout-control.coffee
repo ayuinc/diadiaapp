@@ -13,7 +13,7 @@ $(document).ready ->
 		pathObj = {}
 		pathObj[mainPath] = lastPath
 		window.history.pushState(pathObj, '', lastPath)
-		document.location.replace($(this).data('href'))
+		document.location.replace($(this).data('href')) 
 		return
 		)
 	
