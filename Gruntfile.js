@@ -395,14 +395,14 @@ module.exports = function (grunt) {
         files: '<%= project.src %>/coffee/*.coffee',
         tasks: 'coffee:dev'
       },
-      responsive_images: {
-        files: '<%= project.src %>/img/**.{jpg,gif,png}',
-        tasks: 'responsive_images:dev'
-      },
-      responsive_images_extender: {
-        files: '<%= project.src %>/*.{html,htm,php}',
-        tasks: 'responsive_images_extender:dev'
-      },
+      // responsive_images: {
+      //   files: '<%= project.src %>/img/**.{jpg,gif,png}',
+      //   tasks: 'responsive_images:dev'
+      // },
+      // responsive_images_extender: {
+      //   files: '<%= project.src %>/*.{html,htm,php}',
+      //   tasks: 'responsive_images_extender:dev'
+      // },
       livereload: {
         options: {
           livereload: LIVERELOAD_PORT
@@ -425,13 +425,13 @@ module.exports = function (grunt) {
     'coffee:dev',
     // 'sass:ebm',
     'sass:dev',
-    // 'bower:dev',
+    'bower:dev',
     // 'autoprefixer:dev',
     // 'cssmin:dev',
     // 'jshint',
     // 'concat:dev',
-    'responsive_images:dev',
-    'responsive_images_extender:dev',
+    // 'responsive_images:dev',
+    // 'responsive_images_extender:dev',
     'connect:livereload',
     'uglify',
     // 'open',
