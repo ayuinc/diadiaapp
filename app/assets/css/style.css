@@ -4826,11 +4826,6 @@ html, body, .site-wrapper {
   height: 100%;
 }
 
-p, body, .container {
-  margin: 0px;
-  padding: 0px;
-}
-
 .container {
   min-height: 100%;
 }
@@ -4882,7 +4877,6 @@ nav a {
 .container {
   position: relative;
   font-family: "raleway";
-  margin: 0 auto;
   text-align: center;
   color: white;
 }
