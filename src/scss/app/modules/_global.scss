@@ -88,10 +88,10 @@ img{
 	width: 100%;
 }
 
-.logo{
+.logo,{
 	width: 40%;
 	margin: 0 auto;
-	margin-top: 20%;
+	margin-top: 15%;
 }
 
 .gracias .logo{
@@ -237,13 +237,20 @@ nav{
 		@media #{$xs-only}{
 					font-size: 16px;
 				}	
-
+		&.details{
+			font-size: 16px;
+		  font-style: italic;
+		  color: #C4C4C4;
+		}		
 	}
+
+
 
 	.ficha{
 		padding: 5%;
-		background-color: white;
+		min-height: 561px;
 		border: 1px solid #DDD;
+		background-color: white;
 	}
 
 	.subtitulo{

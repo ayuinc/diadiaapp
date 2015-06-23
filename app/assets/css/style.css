@@ -4850,7 +4850,7 @@ img {
 .logo {
   width: 40%;
   margin: 0 auto;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .gracias .logo {
@@ -4988,10 +4988,16 @@ nav a {
     font-size: 16px;
   }
 }
+.beneficios p.details, .testimonios p.details, .contacto p.details {
+  font-size: 16px;
+  font-style: italic;
+  color: #C4C4C4;
+}
 .beneficios .ficha, .testimonios .ficha, .contacto .ficha {
   padding: 5%;
-  background-color: white;
+  min-height: 561px;
   border: 1px solid #DDD;
+  background-color: white;
 }
 .beneficios .subtitulo, .testimonios .subtitulo, .contacto .subtitulo {
   color: #979797;
