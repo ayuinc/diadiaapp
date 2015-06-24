@@ -91,10 +91,10 @@ img{
 .logo,{
 	width: 40%;
 	margin: 0 auto;
-	margin-top: 15%;
+	margin-top: 20%;
 }
 
-.gracias .logo{
+.gracias {
 	margin-top: 10%;
 }
 
@@ -127,7 +127,7 @@ nav{
 	.bajada{
 		padding:0 5%;
 			h1{
-				font-size: 50px;
+				font-size: 44px;
 				@media #{$xs-only}{
 					font-size: 32px;
 				}		
@@ -153,7 +153,7 @@ nav{
 .subtitulo, .container-contacto{
 	padding: 2%;
 		h2{
-			font-size: 30px;
+			font-size: 26px;
 			font-family: "raleway";
 			@media #{$xs-only}{
 					font-size: 18px;
@@ -248,7 +248,7 @@ nav{
 
 	.ficha{
 		padding: 5%;
-		min-height: 561px;
+		min-height: 405px;
 		border: 1px solid #DDD;
 		background-color: white;
 	}

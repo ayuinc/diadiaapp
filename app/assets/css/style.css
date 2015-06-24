@@ -4850,10 +4850,10 @@ img {
 .logo {
   width: 40%;
   margin: 0 auto;
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
-.gracias .logo {
+.gracias {
   margin-top: 10%;
 }
 
@@ -4884,7 +4884,7 @@ nav a {
   padding: 0 5%;
 }
 .container .bajada h1 {
-  font-size: 50px;
+  font-size: 44px;
 }
 @media only screen and (max-width: 480px) {
   .container .bajada h1 {
@@ -4906,7 +4906,7 @@ nav a {
   padding: 2%;
 }
 .subtitulo h2, .container-contacto h2 {
-  font-size: 30px;
+  font-size: 26px;
   font-family: "raleway";
 }
 @media only screen and (max-width: 480px) {
@@ -4995,7 +4995,7 @@ nav a {
 }
 .beneficios .ficha, .testimonios .ficha, .contacto .ficha {
   padding: 5%;
-  min-height: 561px;
+  min-height: 405px;
   border: 1px solid #DDD;
   background-color: white;
 }
